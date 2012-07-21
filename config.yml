@@ -1,0 +1,213 @@
+Basic_Widgets:
+  Healthbar:
+    visible: true
+    shiftX_rate: 0
+    shiftY_rate: 0
+  EXPbar:
+    visible: true
+    shiftX_rate: 0
+    shiftY_rate: 0
+  Hungerbar:
+    visible: true
+    shiftX_rate: 0
+    shiftY_rate: 0
+  Armorbar:
+    visible: true
+    shiftX_rate: 0
+    shiftY_rate: 0
+  Bubblebar:
+    visible: true
+    shiftX_rate: 0
+    shiftY_rate: 0
+  chatbar:
+    visible: true
+    shiftX_rate: 0
+    shiftY_rate: 0
+  chat_textbar:
+    visible: true
+    shiftX_rate: 0
+    shiftY_rate: 0
+Widgets:
+  Health:
+    enabled: true
+    priority: normal
+    anchor: bottom_left
+    size_lock: true
+    width_rate: 15.3
+    height_rate: 27
+    shiftX_rate: 3
+    shiftY_rate: 0
+    use_value_text: true
+    text_priority: low
+    text_anchor: bottom_left
+    text_scale: 1.0
+    text_color: FFFFFF
+    text_shiftX_rate: 8.5
+    text_shiftY_rate: 11
+    common_url: http://dl.dropbox.com/u/56234727/plugin_resource/RPGStatus/
+    details:
+      100%: h100.png
+      95%: h95.png
+      90%: h90.png
+      85%: h85.png
+      80%: h80.png
+      75%: h75.png
+      70%: h70.png
+      65%: h65.png
+      60%: h60.png
+      55%: h55.png
+      50%: h50.png
+      45%: h45.png
+      40%: h40.png
+      35%: h35.png
+      30%: h30.png
+      25%: h25.png
+      20%: h20.png
+      15%: h15.png
+      10%: h10.png
+      5%: h5.png
+      1%: h1.png
+      0%: h0.png
+  Mana:
+    enabled: true
+    priority: normal
+    anchor: bottom_right
+    size_lock: true
+    width_rate: 15.3
+    height_rate: 27
+    shiftX_rate: -7.7
+    shiftY_rate: 0
+    use_value_text: true
+    text_priority: low
+    text_anchor: bottom_right
+    text_scale: 1.0
+    text_color: FFFFFF
+    text_shiftX_rate: -2
+    text_shiftY_rate: 11
+    common_url: http://dl.dropbox.com/u/56234727/plugin_resource/RPGStatus/
+    details:
+      100%: h100.png
+      95%: h95.png
+      90%: h90.png
+      85%: h85.png
+      80%: h80.png
+      75%: h75.png
+      70%: h70.png
+      65%: h65.png
+      60%: h60.png
+      55%: h55.png
+      50%: h50.png
+      45%: h45.png
+      40%: h40.png
+      35%: h35.png
+      30%: h30.png
+      25%: h25.png
+      20%: h20.png
+      15%: h15.png
+      10%: h10.png
+      5%: h5.png
+      1%: h1.png
+      0%: h0.png
+  Level:
+    enabled: true
+    priority: normal
+    anchor: bottom_left
+    size_lock: true
+    width_rate: 2
+    height_rate: 3.1
+    shiftX_rate: 22.4
+    shiftY_rate: -10.2
+    use_representative_image: true
+    rimage_priority: normal
+    rimage_anchor: bottom_left
+    rimage_size_lock: true
+    rimage_width_rate: 3.4
+    rimage_height_rate: 3.1
+    rimage_shiftX_rate: 19
+    rimage_shiftY_rate: -10.2
+    common_url: http://dl.dropbox.com/u/56234727/plugin_resource/RPGStatus/
+    rimage_url: lv.png
+    details:
+      n9: n9.png
+      n8: n8.png
+      n7: n7.png
+      n6: n6.png
+      n5: n5.png
+      n4: n4.png
+      n3: n3.png
+      n2: n2.png
+      n1: n1.png
+      n0: n0.png
+  EXP:
+    enabled: false
+    priority: normal
+    anchor: bottom_center
+    size_lock: true
+    width_rate: 12
+    height_rate: 21
+    shiftX_rate: -3
+    shiftY_rate: -5
+    use_value_text: true
+    text_priority: low
+    text_anchor: bottom_left
+    text_scale: 1.0
+    text_color: FF0000
+    text_shiftX_rate: 5
+    text_shiftY_rate: 5
+    common_url: http://dl.dropbox.com/u/56234727/plugin_resource/RPGStatus/
+    details:
+      100%: h100.png
+      95%: h95.png
+      90%: h90.png
+      85%: h85.png
+      80%: h80.png
+      75%: h75.png
+      70%: h70.png
+      65%: h65.png
+      60%: h60.png
+      55%: h55.png
+      50%: h50.png
+      45%: h45.png
+      40%: h40.png
+      35%: h35.png
+      30%: h30.png
+      25%: h25.png
+      20%: h20.png
+      15%: h15.png
+      10%: h10.png
+      5%: h5.png
+      1%: h1.png
+      0%: h0.png
+  HeroClass:
+    enabled: true
+    priority: normal
+    anchor: bottom_left
+    size_lock: true
+    width_rate: 8.5
+    height_rate: 6.2
+    shiftX_rate: 18.3
+    shiftY_rate: -2
+    common_url: http://dl.dropbox.com/u/56234727/plugin_resource/RPGStatus/
+    details:
+      classlist:
+        - Admin
+        - Citizen
+        - Cleric
+        - Mage
+        - Rogue
+        - Warrior
+      Citizen: citizen.png
+      Cleric: cleric.png
+      Mage: mage.png
+      Rogue: rogue.png
+      Warrior: warrior.png
+  Background:
+    enabled: true
+    priority: highest
+    anchor: bottom_center
+    size_lock: true
+    width_rate: 76.3
+    height_rate: 16.25
+    shiftX_rate: -1
+    shiftY_rate: 0
+    url: http://dl.dropbox.com/u/56234727/plugin_resource/RPGStatus/bg.png
